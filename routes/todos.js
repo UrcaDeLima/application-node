@@ -38,4 +38,12 @@ router.post('/complete', async (req, res) => {
   res.redirect('/')
 })
 
+router.get('/tasks', async (req, res) => {
+  res.render('tasks', {
+    title: 'Task page',
+    isTasks: true
+  })
+
+})
+
 module.exports = router

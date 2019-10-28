@@ -7,7 +7,7 @@
       <li class="todo">
         <label>
           <input type="checkbox" {{#if completed}} checked {{/if}}>
-          <span {{#if completed}} class="completed" {{/if}}>{{title}}</span>
+          <span {{#if completed}} class="completed" {{/if}}><a href="/tasks?id={{_id}}">{{title}}</a></span>
 
           <input type="hidden" name="id" value="{{_id}}">
           <button class="btn btn-small" type="submit">Save</button>

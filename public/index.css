@@ -26,3 +26,30 @@
   top: 20%;
   left: 20%;
 }
+
+#field{
+  width: 320px;
+  height: 320px;
+  box-sizing: content-box;
+  border: 1px solid black;
+}
+
+.chess-block{
+  width: 40px;
+  height: 40px;
+  float: left;
+}
+
+.bg-black{
+  background-color: gray;
+}
+
+.bg-green{
+  background-color: green;
+}
+
+.active{
+  background-image: url('http://s1.iconbird.com/ico/2014/1/614/w512h5121390849533knight512.png');
+  background-color: orange;
+  background-size: contain;
+}
